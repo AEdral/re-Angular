@@ -1,4 +1,6 @@
-# re-Angular ![WEBSITE](src/assets/ReAngular - Home.png)
+# re-Angular
+
+![Home Preview](src/assets/Home.png)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
