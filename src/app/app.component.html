@@ -6,15 +6,18 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<div class="container">
-  <h1 class="text-center">Benvenuto nel mio progetto Angular!</h1>
-</div>
-<nav>
-  <a routerLink="/">Home</a>
-  <a routerLink="/about">About</a>
-</nav>
-<router-outlet/>
 
+<div class="d-flex flex-column min-vh-100">
+  
+  <app-navbar></app-navbar>
+
+  <main class="flex-fill">
+    <router-outlet></router-outlet>
+  </main>
+
+  <app-footer></app-footer>
+
+</div>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
