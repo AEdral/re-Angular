@@ -2,6 +2,32 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
+## Setup
+
+# 1. Verify if Node.js and npm are installed
+node -v
+npm -v
+
+# 2. If Node.js and npm are not installed
+sudo apt update
+sudo apt install nodejs npm
+
+# 3. Install Angular CLI globally
+sudo npm install -g @angular/cli
+
+# 4. Clone the repository (if you haven't done it yet)
+git clone https://github.com/AEdral/re-Angular.git
+
+# 5. go on the project directory
+cd re-Angular
+
+# 6. Install project dependencies
+npm install
+
+# 7. Start the host server
+ng serve
+
+
 ## Development server
 
 To start a local development server, run:
