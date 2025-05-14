@@ -3,7 +3,7 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
 ## Setup
-
+```bash
 # 1. Verify if Node.js and npm are installed
 node -v
 npm -v
@@ -26,7 +26,7 @@ npm install
 
 # 7. Start the host server
 ng serve
-
+```
 
 ## Development server
 
